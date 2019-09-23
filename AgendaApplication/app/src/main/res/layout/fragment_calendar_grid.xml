@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_calendar_grid"
+    tools:context="wangyijieholding.agendaapplication.calendar.CalendarGridFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight= "1"
+                android:layout_height="wrap_content"
+                android:text="@string/sunday_heading"
+                android:id="@+id/textViewSun" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight= "1"
+                android:layout_height="wrap_content"
+                android:text="@string/monday_heading"
+                android:id="@+id/textViewMon" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight= "1"
+                android:layout_height="wrap_content"
+                android:text="@string/tuesday_heading"
+                android:id="@+id/textViewTue" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight= "1"
+                android:layout_height="wrap_content"
+                android:text="@string/wednesday_heading"
+                android:id="@+id/textViewWed" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight= "1"
+                android:layout_height="wrap_content"
+                android:text="@string/thursday_heading"
+                android:id="@+id/textViewThu" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight= "1"
+                android:layout_height="wrap_content"
+                android:text="@string/friday_heading"
+                android:id="@+id/textViewFri" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight= "1"
+                android:layout_height="wrap_content"
+                android:text="@string/saturday_heading"
+                android:id="@+id/textViewSat" />
+        </LinearLayout>
+
+        <GridView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/dateGrid"
+            android:numColumns="7"
+            android:stretchMode="columnWidth"
+            android:choiceMode="none" />
+
+    </LinearLayout>
+
+</RelativeLayout>

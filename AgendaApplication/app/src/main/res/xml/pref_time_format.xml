@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="time_zone_auto_switch"
+        android:summary="@string/pref_auto_time_zone_summary"
+        android:title="@string/pref_auto_time_zone_title"
+        android:disableDependentsState="true"/>
+
+    <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+     dismiss it. -->
+    <ListPreference
+        android:defaultValue="-1"
+        android:entries="@array/pref_time_zone_list_title"
+        android:entryValues="@array/pref_time_zone_list_values"
+        android:key="time_zone_list"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_time_zone"
+        android:dependency="time_zone_auto_switch"/>
+</PreferenceScreen>

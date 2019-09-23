@@ -1,0 +1,186 @@
+<resources>
+    <string name="app_name">Agenda Application</string>
+    <string name="new_event">New Event</string>
+    <string name="title_activity_main">Calendar</string>
+    <string name="hint_event_title">Event Title</string>
+    <string name="title_event_desc">Event Description</string>
+    <string name="hint_event_desc">Event description</string>
+    <string name="hint_create_event">Create Event</string>
+    <string name="title_select_date">Select Event Date</string>
+    <string name="title_select_type">Select Event Type</string>
+    <string name="title_event_information">Event Information</string>
+    <string name="title_start_time">Start Time:</string>
+    <string name="title_end_time">End Time  :</string>
+    <string name="title_end_date">Select End Date</string>
+    <string name="sunday_heading">Sun</string>
+    <string name="monday_heading">Mon</string>
+    <string name="tuesday_heading">Tue</string>
+    <string name="wednesday_heading">Wed</string>
+    <string name="thursday_heading">Thu</string>
+    <string name="friday_heading">Fri</string>
+    <string name="saturday_heading">Sat</string>
+    <string name="word_event">Event</string>
+    <string name="word_events">Events</string>
+    <string name="title_activity_day_detail">DayDetailActivity</string>
+    <string name="word_events_and_colon">Events:</string>
+    <string name="dialog_edit_mode">Choose an action</string>
+    <string name="dialog_edit">Edit</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_delete">Delete</string>
+    <string name="hint_edit_event">Confirm</string>
+    <string name="hint_edit_cancel">Cancel</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_specify_time">Specify Time</string>
+    <string name="title_select_time">Specify Event Time</string>
+    <string name="description_edit_event">Edit the Event</string>
+    <string name="default_event_title">Untitled Event</string>
+    <string name="subtitle_hour_label">Hour</string>
+    <string name="subtitle_minute_label">Minute</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Setting for time zones and time format -->
+    <string name="pref_auto_time_zone_title">Automatic time zone</string>
+    <string name="pref_auto_time_zone_summary">Automatically choose the time zone based on your device\'s local time zone</string>
+    <string-array name="pref_time_zone_list_title">
+        <item>Local Timezone</item>
+    </string-array>
+    <string-array name="pref_time_zone_list_values">
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_upcoming_events_notifications">Important events notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <string name="pref_header_time_format">Time zones and format</string>
+
+    <string name="pref_title_time_zone">Time Zone</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="action_register">Register</string>
+    <string name="identity_demo_unknown_identity_text">&lt;UNKNOWN IDENTITY&gt;</string>
+    <string name="login_dialog_dismiss_text">DISMISS</string>
+    <string name="login_error_dialog_title">Failed Identity Retrieval</string>
+    <string name="login_error_message_failed_get_identity">Could not retrieve the user identity:\u0020</string>
+
+        <!-- Strings related to login with amazon incognito-->
+        <string name="title_activity_sign_in">Sign-in</string>
+        <string name="title_activity_forgot_password">Forgot Password</string>
+        <string name="sign_up_success">Sign up succeeded.</string>
+        <string name="sign_up_failed">Sign up failed.</string>
+        <string name="login_success">Login succeeded.</string>
+        <string name="login_failed">Login failed.</string>
+        <string name="password_change_success">Password change succeeded.</string>
+        <string name="password_change_failed">Password change failed.</string>
+        <string name="sign_up_confirm_success">Sign up confirmation succeeded.</string>
+        <string name="sign_up_confirm_failed">Sign up confirmation failed.</string>
+        <string name="title_activity_sign_up">Sign Up</string>
+        <string name="title_activity_sign_up_confirm">Confirm Account</string>
+
+        <!-- sign in -->
+        <string name="sign_in_email">Email</string>
+        <string name="sign_in_username">Username/Phone Number</string>
+        <string name="sign_in_password">Password</string>
+        <string name="sign_in_new_account">Create New Account</string>
+        <string name="sign_in_forgot_password">Forgot Your Password?</string>
+        <string name="sign_in_or">or sign in with</string>
+
+        <!-- sign up activity-->
+        <string name="phone_number_text">Phone number</string>
+        <string name="username_text">Username</string>
+        <string name="given_name_text">Given name</string>
+        <string name="email_address_text">Email address</string>
+        <string name="sign_up_header">Enter the following information to sign up.</string>
+        <string name="password_requirement">Password must contain at least 8 characters with at least one letter and number</string>
+
+        <!-- sign up confirm activity-->
+        <string name="sign_up_confirm_code">Confirmation code</string>
+        <string name="sign_up_confirm_text">Confirm</string>
+        <string name="sign_up_confirm_code_sent">A confirmation code was sent.</string>
+        <string name="sign_up_confirm_enter_code">Please enter the code below to confirm your account.</string>
+        <string name="sign_up_confirm_title">Confirm your account</string>
+
+        <!-- forgot password activity-->
+        <string name="forgot_password_header">Forgot your password?</string>
+        <string name="forgot_password_body">Set your new password with the verification code that was sent to you.</string>
+        <string name="forgot_password_input_code_hint">Verification code</string>
+        <string name="forgot_password_button_hint">Set password</string>
+
+        <!-- mfa verification -->
+        <string name="mfa_header">MFA verification is required to authenticate.</string>
+        <string name="mfa_code_sent_message">Code sent.</string>
+        <string name="verify_button_text">Verify</string>
+
+    <!-- Strings for actionbar-->
+    <string name="actionbar_favourite">Favourite</string>
+    <string name="actionbar_settings">Settings</string>
+
+</resources>
